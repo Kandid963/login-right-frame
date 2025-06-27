@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Login Right Frame</title>
   <style>
-    /* Make sure body and html fill the frame with no margin */
+    /* Make sure html and body fill the frame with no margin */
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
     }
+
     body {
-      display: block;  /* Default block display, no flexbox */
-    }
-    img {
-      width: 100%;     /* make image fill entire width */
-      height: 100%;    /* make image fill entire height */
-      object-fit: none; /* no object fit, just stretch */
+      background-image: url('https://raw.githubusercontent.com/Kandid963/login-right-frame/main/ufc-mixed-martial-artist-conor-mcgregor-dyzqm5j7z6uyo0yd.jpg');
+      background-size: cover;  /* This ensures the image will cover the whole screen */
+      background-position: center; /* This keeps the image centered */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      height: 100%;  /* Ensure the body element takes full height */
     }
   </style>
 </head>
 <body>
-  <img src="https://raw.githubusercontent.com/Kandid963/login-right-frame/main/ufc-mixed-martial-artist-conor-mcgregor-dyzqm5j7z6uyo0yd.jpg" alt="Login Banner" />
+  <!-- No <img> tag is needed; the image is now set as the background -->
 </body>
 </html>
