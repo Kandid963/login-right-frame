@@ -10,15 +10,14 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      display: flex;
-      justify-content: center; /* center horizontally */
-      align-items: center;    /* center vertically */
-      background-color: #fff; /* optional: set background */
+    }
+    body {
+      display: block;  /* Default block display, no flexbox */
     }
     img {
-      max-width: 100%;
-      max-height: 100%;
-  
+      width: 100%;     /* make image fill entire width */
+      height: 100%;    /* make image fill entire height */
+      object-fit: none; /* no object fit, just stretch */
     }
   </style>
 </head>
